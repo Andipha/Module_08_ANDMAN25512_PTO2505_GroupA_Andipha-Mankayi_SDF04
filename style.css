@@ -26,6 +26,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 40px;
+    padding-top: 20px;
 }
 
 .foooter-row {
@@ -57,7 +58,7 @@ footer {
 
 .footer-section-1 .btn {
     background-color: #f7650b;
-    color: #659f8f;
+    color: #e1e3e2;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -94,7 +95,7 @@ footer {
 
 .footer-section-1,
 .footer-section-2,
-.footer-section-3 {
+.footer-section-3{
     flex: 1 1 250px;
     margin-bottom: 20px;
 }
@@ -114,13 +115,20 @@ footer {
     bottom: 2rem;
     width: 100%;
     height: 100%;
-    display: flex;
+    display: grid;
     align-items: center;
 }
 
 .logo.container img {
-    height: 30px;   /* small logo height */
+    height: 30px;
     width: auto;
+    padding: bottom 30px;
+}
+
+.footer-section-4{
+    font-size: x-small;
+    position:relative;
+    padding: 20px;
 }
 
 @media (max-width: 768px) {
