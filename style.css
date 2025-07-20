@@ -123,7 +123,29 @@ footer {
     width: auto;
 }
 
+@media (max-width: 768px) {
+    .footer-wrap {
+        padding: 20px 10px;
+    }
 
+    .footer-section-1,
+    .footer-section-2,
+    .footer-section-3 {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 480px) {
+    footer h1 {
+        font-size: 1.1rem;
+    }
+    form input[type="email"] {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
 
 
 
