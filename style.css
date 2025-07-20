@@ -12,7 +12,7 @@ body {
 
 footer {
     background-color: #659f8f; /* Light theme */
-    color: white;
+    color: rgb(58, 58, 58);
 }
 
 .container {
@@ -40,10 +40,11 @@ footer {
 .footer-section-1 {
     flex: 1;
     min-width: 250px;
+    font-weight: bold;
 }
 
-.footer-section-1 p {
-    font-size: 16px;
+.footer-section-1 h1 {
+    font-size: 15px;
     margin-bottom: 10px;
 }
 
@@ -70,8 +71,8 @@ footer {
 
 .footer-section-2 h1,
 .footer-section-3 h1 {
-    margin-bottom: 10px;
-    font-size: 18px;
+    margin-bottom: 15px;
+    font-size: 12px;
     text-transform: uppercase;
 }
 
@@ -87,7 +88,7 @@ footer {
 
 .footer-section-2 ul li a,
 .footer-section-3 ul li a {
-    color: white;
+    color: rgb(65, 64, 64);
     text-decoration: none;
 }
 
