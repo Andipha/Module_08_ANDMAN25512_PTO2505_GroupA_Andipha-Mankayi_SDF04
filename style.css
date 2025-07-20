@@ -1,12 +1,12 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 2px;
     box-sizing: border-box;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #28b4a1;
+    background-color: #e5eaea;
     color: #333;
 }
 
@@ -126,7 +126,7 @@ footer {
 }
 
 .footer-section-4{
-    font-size: x-small;
+    font-size: xx-small;
     position:relative;
     padding: 20px;
 }
@@ -155,7 +155,21 @@ footer {
         font-size: 0.9rem;
     }
 
+  @media screen and (max-width: 480px) {
+  .social-icons {
+    flex-direction: column;
+    gap: 10px;
+  }
 
+  .icon {
+    font-size: 18px;
+  }  
+ 
+@media screen and (max-width: 480px) {
+  .footer-divider {
+    width: 90%;
+    background-color: #ff9900; /* optional tweak */
+  }
 
 
 
